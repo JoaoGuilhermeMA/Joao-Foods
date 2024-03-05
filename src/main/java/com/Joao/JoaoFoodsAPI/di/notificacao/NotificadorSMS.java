@@ -1,8 +1,10 @@
 package com.Joao.JoaoFoodsAPI.di.notificacao;
 
 import com.Joao.JoaoFoodsAPI.di.modelo.Cliente;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
+@TipoDoNotificador(NivelUrgencia.URGENTE)
 @Component
 public class NotificadorSMS implements Notificador {
 

@@ -4,7 +4,7 @@ import com.Joao.JoaoFoodsAPI.di.modelo.Cliente;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
-@TipoDoNotificador(NivelUrgencia.URGENTE)
+@TipoDoNotificador(NivelUrgencia.NORMAL)
 @Component
 public class NotificadorSMS implements Notificador {
 
